@@ -17,7 +17,7 @@ sidebar:
     phone: 
     timezone: Asia/Kolkata Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
+    website: 
     linkedin: shaileshvaidya
     github: shailesh-vaidya
     telegram: # add your nickname without '@' sign
@@ -56,12 +56,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+       A competent professional with rich experience in Continuous Integration,
+       Continuous Deployment and DevOps Tools stack. Good knowledge of Linux, Shell
+       scripting, Virtualization, Containerization, Kubernetes Cluster Management and
+       Configuration Management tools.
 education:
     title: Education
     info:
