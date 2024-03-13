@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Shailesh Vaidya
     tagline: DevOps Architect
-    avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: photo.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: skimeer@gmail.com
@@ -44,13 +44,10 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Reading
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: Traveling 
           link:
 
 career-profile:
@@ -178,25 +175,23 @@ certifications:
           start: 2024
           end: 2027
           organization: Linux Foundation
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Linux Foundation
+          credentialid: LF-1o2gmo312b
+          credentialurl: https://www.credly.com/badges/575e4c17-2d05-4aab-97c6-c6223cb04ab6/linked_in_profile?trk=public_profile_see-credential
+          credentialname: Certified Kubernetes Administrator
 
         - name: Red Hat Certified Engineer on RHEL5
           start: 2019
           end:
           organization: RedHat
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          credentialid: 110-161-692
+          credentialurl: https://rhtapps.redhat.com/verify?certId=110-161-692
+          credentialname: RHCE
 
         - name: AWS Cloud Practitioner Essentials
           start: 2019
           end:
-          organization: RedHat
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: AWS
+          organization: Amazon Web Services
+          credentialname: AWS Cloud Practitioner Essentials
 
 skills:
     title: Skills &amp; Proficiency
