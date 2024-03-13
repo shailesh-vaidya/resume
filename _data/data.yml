@@ -63,28 +63,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: B.E. Electronics
+        university: Pune University
+        time: 2000 - 2004
 
 experiences:
     title: Experiences
@@ -100,6 +81,20 @@ experiences:
             - Designed and developed pluggable shell script-based
               framework for Multi-platform, helm based, customizable,
               N-node CORTX deployment on Kubernetes Cluster
+            - Automated GitHub native Release Management workflow
+              with nightly deployment and continuous testing validation
+              Test suite execution.
+            - Maintained and provided support for CORTX Public GitHub
+              repositories. This includes GitHub Access Management,
+              Enabling multiple PR checks by integrating tools like
+              Codacy, Mend, and GitHub Actions/Apps, etc.
+            - Documented and automated CORTX Build and
+              deployment steps for Opensource community developers
+              including infrastructure provisioning using Terraform, local
+              CORTX Artifact generation and Kubernetes based CORTX
+              deployment.
+            - Designed and implemented GitOps based deployment
+              workflow for Dashboard Application using ArgoCD.
       - role: Technical Lead
         time: 2017 - 2019
         company: Wipro Technologies, Pune
@@ -113,6 +108,14 @@ experiences:
               endpoints from various DevOps tools and use ELK stack
               aggregations to derive high-level metrics like Lead time to
               deploy, Mean Time to Recover.
+            - Developed data driven dashboards to display
+              Team/Developer wise DevOps Tool usage, Shift Left Score
+              and DevOps maturity.
+            - Developed and maintained CI/CD workflow for project
+              that includes maintaining GitHub Repositories, Jenkins
+              Pipelines, Nexus Repositories, Creating deployment scripts,
+              Managing Application load balancer, ELK Cluster and
+              Infrastructure monitoring.
       - role: Senior Engineer
         time: 2016- 2017  
         company: Pitney Bowes, Pune
@@ -121,6 +124,52 @@ experiences:
               Deployments (Beanstalk Service) and Upgrades using tools
               like Jenkins, Deployit. Investigated and fixed deployment
               related issues within SLA timeframe.
+      - role: Senior Team Lead
+        time: 2009- 2016
+        company: Persistent Systems Ltd, Pune
+        details: |
+            - Gathered and analyzed requirements from stakeholders
+            and created shell scripts for back office solution. E.g.
+            Software deployment, Cluster setup, LDAP-based
+            authentication, Encrypted database password, Automated
+            backups, and HA setup using Heartbeat, Corosync,
+            Pacemaker and DRBD
+            - Developed init scripts and RPM package generation for
+            installation and upgrade of JBOSS and Tomcat based
+            custom modules.
+            - Trained Dev/QA team on Linux, Shell scripting,
+            Virtualization, Perforce branch merge, Debugging Jenkins
+            build failures and IPTV basics etc.
+            - Helped engineering team in validating bug fix in dev and
+            customer staging environment. Plan and Execute MOP
+            (Maintenance Operation) for IPTV Head ends upgrade and
+            migrations.
+            - Configured custom infrastructure components HPN (High
+            Performance networks) network drive for optimized video
+            streaming, Software and Hardware RAID, SNMP monitoring
+            etc.
+      - role: System and Network Administrator
+        time: 2008- 2009
+        company: Mithi Software Technology Pvt. Ltd, Pune
+        details: |
+            - Coordinate with customer to understand email solution
+            requirements and help customer to customize Mithi Mail
+            server solution by integrating with existing tools. Preparing
+            deployment plans for Production and Pilot level product
+            deployments, Migration from existing systems.
+            - Perform the production deployment, maintenance and
+            product training with the help of other delivery engineers,
+            on site or remote, within the set time frame. Ensuring
+            conformance to pre and post delivery procedures.
+            Integrate the solution with ADS / RHDS/Lotus servers
+      - role: On Job Trainee
+        time: 2006- 2007
+        company: HCL Info Systems Ltd, Pune
+        details: |
+            - Deployed and Maintained Network and Systems
+            Infrastructure at client location. Deployed customized
+            directory servers, application server and network
+            components.
 
 certifications:
       title: Certifications
@@ -132,36 +181,22 @@ certifications:
           credentialid: 111-222
           credentialurl: www.google.com
           credentialname: Linux Foundation
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
+        - name: Red Hat Certified Engineer on RHEL5
           start: 2019
           end:
-          organization: Microsoft
+          organization: RedHat
           credentialid: 111-222
           credentialurl: www.github.com
           credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+
+        - name: AWS Cloud Practitioner Essentials
+          start: 2019
+          end:
+          organization: RedHat
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: AWS
 
 skills:
     title: Skills &amp; Proficiency
@@ -175,6 +210,9 @@ skills:
 
       - name: Kubernetes
         level: 98%
+      
+      - name: Bash Shell scripting
+        level: 98%  
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
