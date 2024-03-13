@@ -176,7 +176,7 @@ certifications:
           end: 2027
           organization: Linux Foundation
           credentialid: LF-1o2gmo312b
-          credentialurl: https://www.credly.com/badges/575e4c17-2d05-4aab-97c6-c6223cb04ab6/linked_in_profile?trk=public_profile_see-credential
+          credentialurl: www.credly.com/badges/575e4c17-2d05-4aab-97c6-c6223cb04ab6/linked_in_profile?trk=public_profile_see-credential
           credentialname: Certified Kubernetes Administrator
 
         - name: Red Hat Certified Engineer on RHEL5
@@ -184,7 +184,7 @@ certifications:
           end:
           organization: RedHat
           credentialid: 110-161-692
-          credentialurl: https://rhtapps.redhat.com/verify?certId=110-161-692
+          credentialurl: rhtapps.redhat.com/verify?certId=110-161-692
           credentialname: RHCE
 
         - name: AWS Cloud Practitioner Essentials
